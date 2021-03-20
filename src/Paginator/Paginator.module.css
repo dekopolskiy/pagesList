@@ -1,0 +1,11 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 200px;
+    margin: 0 30%;
+}
+
+.main div{
+    border: 1px solid black;
+    padding: 15px;
+}
