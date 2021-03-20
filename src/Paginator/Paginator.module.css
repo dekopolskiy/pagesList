@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 .main{
+    font-family: 'Syne Mono', monospace;
     display: grid;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: repeat(12,50px);
     width: 200px;
     margin: 0 30%;
 }
 
 .main div{
-    border: 1px solid black;
     padding: 15px;
+}
+
+.chevron{
+    padding: 17px;
 }
